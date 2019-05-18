@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React.js is a JS library that builds interactive applications that are reactive to data inputs, and user interactions.  It employs the virtual DOM in order to make the process more efficient.
+
 - [ ] What does it mean to _think_ in react?
+
+Thinking in React is basically mentally structuring your applications to be composed of components, and being cognizant of the data that certain components hold, and pass around to each other etc.
 
 - [ ] Describe state.
 
+State is an object that contains data that can be altered, managed, and rendered to the screen, and is thus accessed by our components.  It is held/set on a the main class component that exports to the main render component, and is passed to children components via props. 
+
 - [ ] Describe props.
+
+Props is an object, and props are used to set data to the properties of the object, and thus pass information to components, often involving aforemntioned state, through attributes. Props the lifeblood and state is the heart.  The combination of the two allows applications to render dynamic information that changes in real time in regards to user interactions.
 
 ## Project Set Up
 
