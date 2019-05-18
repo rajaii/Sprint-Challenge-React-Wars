@@ -4,5 +4,30 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 5rem;
 }
 /* write your parent styles in here for your App.js */
+.motherFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid lightseagreen;
+  width: 900px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.name {
+  font-size: 3rem; 
+  margin-bottom: 30px;
+  text-align: left;
+}
+.name_items {
+  font-size: 2rem;
+  color: white;
+}
+.forMargins {
+  margin-left: 45px;
+}
+.sublists {
+  font-size: 2rem;
+}
